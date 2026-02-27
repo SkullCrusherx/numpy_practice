@@ -15,4 +15,7 @@ print(m)
 arr_Dig = np.eye(7)
 print(arr_Dig)
 
+arr_Dig = np.eye((3,3))
+print(arr_Dig)
+
 
