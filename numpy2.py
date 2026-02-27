@@ -19,4 +19,8 @@ print(arr_Dig)
 arr_Digg = np.eye(3,5)
 print(arr_Digg)
 
+# linspace use how much reqired fro client
+arr_spc = np.linspace(0,10,6)
+print(arr_spc)
+
 
