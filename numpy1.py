@@ -20,5 +20,3 @@ print(np.array(lst))
 
 
 print(y.ndim) # check dimension
-
-
