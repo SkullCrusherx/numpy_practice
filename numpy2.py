@@ -15,7 +15,8 @@ print(m)
 arr_Dig = np.eye(7)
 print(arr_Dig)
 
-arr_Dig = np.eye((3,3))
-print(arr_Dig)
+#diagonal multi Dmensional purpose
+arr_Digg = np.eye(3,5)
+print(arr_Digg)
 
 
