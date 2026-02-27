@@ -12,3 +12,13 @@ for i in range(6):
 
 print(np.array(lst))
 
+
+# 1D Dimension []
+# 2D Dimension [[]]
+# 3D Dimension [[[]]]
+# Higher Dimension Array [[[[[]]]]]
+
+
+print(y.ndim) # check dimension
+
+
