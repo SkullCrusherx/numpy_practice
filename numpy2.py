@@ -6,4 +6,7 @@ print(ar) #single Dimension
 arm = np.zeros((3,4))
 print(arm) # multi Dimension
 # 1 's dimension same like zero
+#empty also like this using np.empty() its shows prevous element may be show
+
+
 
