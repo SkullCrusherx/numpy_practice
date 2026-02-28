@@ -9,9 +9,9 @@ print(var_rnd)
 
 #ranf()
 # 0 to 1 work only this side
+var_rndf = np.random.ranf((5,3))
+print(var_rndf)
 
-"""var_rndf = np.random.ranf((5,3))
-print(var_rndf)"""
-
+#rand_int function coming
 var_randint = np.random.randint(0,10,1)
 print(var_randint)
