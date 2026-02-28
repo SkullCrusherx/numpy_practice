@@ -1,3 +1,5 @@
+#session 2nd
+
 #creating numpy array using numpy function
 # 0's arra fill special Character
 import numpy as np
