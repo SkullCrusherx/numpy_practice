@@ -6,3 +6,9 @@ print(var)
 #randn() for neg can get and close to 0 also get
 var_rnd = np.random.randn(5)
 print(var_rnd)
+
+#ranf()
+# 0 to 1 work only this side
+
+var_rndf = np.random.ranf((5,3))
+print(var_rndf)
