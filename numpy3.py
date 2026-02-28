@@ -13,5 +13,5 @@ print(var_rnd)
 """var_rndf = np.random.ranf((5,3))
 print(var_rndf)"""
 
-var_randint = np.random.randint(min(5,10),max(5,10))
+var_randint = np.random.randint(0,10,1)
 print(var_randint)
