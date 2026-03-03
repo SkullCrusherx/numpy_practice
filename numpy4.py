@@ -19,6 +19,6 @@ var  = np.array([1,2,3,4],dtype = np.int8)
 print(var.dtype) #check the datatype int64 now its goes for int8
 
 #alternative we can use altertive datatype shorcut number or format like this
-var = np.array([1,2,3,4],dtype = "f")
-print(var)
-print(var.dtype)
+var_ch = np.array([1,2,3,4],dtype = "f")
+print(var_ch)
+print(var_ch.dtype)
