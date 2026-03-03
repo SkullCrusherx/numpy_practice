@@ -4,3 +4,6 @@ from numpy import dtype
 
 var  = np.array([1,2,3,4])
 print(var.dtype) #check the datatype
+
+var_f  = np.array([1.0,2.0,3.9,4.0])
+print(var_f.dtype) #check the datatype
