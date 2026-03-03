@@ -22,3 +22,4 @@ print(var.dtype) #check the datatype int64 now its goes for int8
 var_ch = np.array([1,2,3,4],dtype = "f")
 print(var_ch)
 print(var_ch.dtype)
+
