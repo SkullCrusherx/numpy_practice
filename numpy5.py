@@ -37,3 +37,18 @@ print(var_1/3)
 var_2 =np.array([1,2,3,4,5])
 var_3 = np.array([1,2,3,4,6])
 print(var_2 / var_3)
+
+#modulus by int
+var_1 =np.array([1,2,3,4,6])
+print(var_1 % 3)
+
+#modulus array by array
+var_2 =np.array([1,2,3,4,5])
+var_3 = np.array([1,2,3,4,6])
+print(var_2 % var_3)
+
+#--------------------------------------------------------------
+#2D Array regarding start arethmatic question
+
+
+
