@@ -20,4 +20,5 @@ print(var.dtype) #check the datatype int64 now its goes for int8
 
 #alternative we can use altertive datatype shorcut number or format like this
 var = np.array([1,2,3,4],dtype = "f")
+print(var)
 print(var.dtype)
