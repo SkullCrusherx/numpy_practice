@@ -23,3 +23,7 @@ var_ch = np.array([1,2,3,4],dtype = "f")
 print(var_ch)
 print(var_ch.dtype)
 
+new_dtype = np.array([1,2,3,4])
+f = np.float32(new_dtype)
+print(f.dtype)
+print(f)
