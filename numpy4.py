@@ -13,3 +13,7 @@ print(var_s.dtype) #check the datatype <u1 for string
 
 var_u  = np.array(["A","B","C","D",1 ,2, 3, 4])
 print(var_u.dtype) #check the datatype <u21 for string
+
+#change datatype
+var  = np.array([1,2,3,4],dtype = np.int32)
+print(var.dtype) #check the datatype int64 now its goes for int32
