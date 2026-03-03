@@ -23,3 +23,9 @@ print(var_2-var_3)
 #multiply with int
 var_1 =np.array([1,2,3,4])
 print(var_1*3)
+
+var_2 =np.array([1,2,3,4])
+var_3 = np.array([1,2,3,4])
+print(var_2*var_3)
+
+
