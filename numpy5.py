@@ -24,8 +24,16 @@ print(var_2-var_3)
 var_1 =np.array([1,2,3,4])
 print(var_1*3)
 
+#multiply with array by array
 var_2 =np.array([1,2,3,4])
 var_3 = np.array([1,2,3,4])
 print(var_2 * var_3)
 
+#deviding by int
+var_1 =np.array([1,2,3,4])
+print(var_1/3)
 
+#deviding array by array
+var_2 =np.array([1,2,3,4,5])
+var_3 = np.array([1,2,3,4,6])
+print(var_2 / var_3)
