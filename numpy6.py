@@ -19,5 +19,5 @@ var_1 = np.array([[2,1,4],[9,5,6]])
 print(np.min(var_1,axis=0))
 #coloumn regarding axis 1 show
 print(np.max(var_1,axis=1))
-#square root
+#square root if come from 1d array
 print(np.sqrt(var_1))
