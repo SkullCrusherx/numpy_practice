@@ -13,12 +13,14 @@ print(np.argmin(var))
 print(np.argmax(var))
 
 #for 2d array min
-
 var_1 = np.array([[2,1,4],[9,5,6]])
+
 #coloumn regarding axis 0 show
 print(np.min(var_1,axis=0))
+
 #coloumn regarding axis 1 show
 print(np.max(var_1,axis=1))
+
 #square root if come from 1D & 2D array
 print(np.sqrt(var))
 print(np.sqrt(var_1))
