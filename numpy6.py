@@ -2,7 +2,7 @@
 
 import numpy as np
 
-var = np.array([1,2,3,4,5,2,3,45,8])
+var = np.array([1,2,3,4,5,2,3,45,8,9])
 #smalll number of array
 print(np.min(var))
 #large number of array
@@ -19,5 +19,6 @@ var_1 = np.array([[2,1,4],[9,5,6]])
 print(np.min(var_1,axis=0))
 #coloumn regarding axis 1 show
 print(np.max(var_1,axis=1))
-#square root if come from 1d array
+#square root if come from 1D & 2D array
+print(np.sqrt(var))
 print(np.sqrt(var_1))
