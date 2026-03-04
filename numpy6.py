@@ -26,7 +26,8 @@ print(np.sqrt(var))
 print(np.sqrt(var_1))
 #sin cos value
 
-var_sin = np.array([1,2,3])
+
 print("------------------")
+var_sin = np.array([1,2,3])
 print(np.sin(var_sin))
 print(np.cos(var_sin))
