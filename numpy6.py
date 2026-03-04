@@ -24,10 +24,9 @@ print(np.max(var_1,axis=1))
 #square root if come from 1D & 2D array
 print(np.sqrt(var))
 print(np.sqrt(var_1))
-#sin cos value
-
 
 print("------------------")
+#sin cos value
 var_sin = np.array([1,2,3])
 print(np.sin(var_sin))
 print(np.cos(var_sin))
