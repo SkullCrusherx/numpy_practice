@@ -35,4 +35,6 @@ print("2D making 2# :",var_reshape)
 var_reshape = var_shape.reshape(3,2,2)
 print("3D making 1# :",var_reshape)
 
+#reshape multi Dimension To 1D 2D or 3D
+print(var_1.reshape(-1))
 
