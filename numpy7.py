@@ -11,9 +11,15 @@ print(var_1.shape) #show the shape
 
 var_multi = np.array([1,2,3,4],ndmin=5)
 print(var_multi)
+
 #for dimension check
 print(var_multi.ndim)
+
 #for shape check
 print(var_multi.shape)
+
+#Reshape convert 1d to 2d 3d or multi
+
+
 
 
