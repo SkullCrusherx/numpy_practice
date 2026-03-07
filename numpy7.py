@@ -39,4 +39,3 @@ print("3D making 1# :",var_reshape)
 print(var_1.reshape(-1))
 print(var_1.flatten())
 print(var_1.ravel())
-
