@@ -1,41 +1,36 @@
 #numpy Shape Reshape
 import numpy as np
 
-var = np.array([[1,2],[3,4]])
-print(var.shape)
-var_1 = np.array([[1,2,3],[3,4,5]])
-#show the shape
 
-print(var_1.shape)
-#for multi dimension regarding
+import numpy as np
 
-var_multi = np.array([1,2,3,4],ndmin=5)
-print(var_multi)
+var = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
+#checking the shape
+f = var.shape
+print(f"shape of var : \n",f)
 
-#for dimension check
-print(var_multi.ndim)
+#2D shape making
+var_2d = var.reshape(3,4)
+var_2d = var.reshape(6,2)
+var_2d = var.reshape(4,3)
 
-#for shape check
-print(var_multi.shape)
+#2D shape print
+print(f"shape of var_2d : \n",var_2d)
 
-#Reshape convert 1d to 2d 3d or multi
-var_shape = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
-print(var_shape)
-print(var_shape.shape)
+#3D shape making
+var_3d = var.reshape(2,3,2)
+var_3d = var.reshape(1,12,1)
+var_3d = var.reshape(3,2,2)
+var_3d = var.reshape(6,2,1)
+var_3d = var.reshape(1,6,2)
 
-#For 2d dimension making
+#print 3D
+print(f"3D making 1# : \n",var_3d)
 
-var_reshape = var_shape.reshape(6,2)
-print("2D making 1# :",var_reshape)
+#1D Remake the shape like this
+i = var_3d.reshape(-1)
+j = var_3d.ravel()
+k = var_3d.flatten()
 
-var_reshape = var_shape.reshape(3,4)
-print("2D making 2# :",var_reshape)
-
-# for 3d dimension making
-var_reshape = var_shape.reshape(3,2,2)
-print("3D making 1# :",var_reshape)
-
-#reshape from multi Dimension To 1D 2D or 3D
-print(var_1.reshape(-1))
-print(var_1.flatten())
-print(var_1.ravel())
+#print 3D
+print(f"1D remake : \n",i)
