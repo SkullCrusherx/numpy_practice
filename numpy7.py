@@ -26,9 +26,9 @@ print(var_shape.shape)
 #For 2d dimension making
 
 var_reshape = var_shape.reshape(6,2)
-print(var_reshape)
+print("2D making 1# :",var_reshape)
 var_reshape = var_shape.reshape(3,4)
-print(var_reshape)
+print("2D making 2# :",var_reshape)
 
 # for 3d dimension making
 var_reshape = var_shape.reshape(3,2,2)
