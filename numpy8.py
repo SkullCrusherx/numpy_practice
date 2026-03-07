@@ -21,3 +21,7 @@ var_3d = var.reshape(1,6,2)
 print(f"3D making 1# : \n",var_3d)
 
 #1D Remake the shape like this
+i = var_3d.reshape(-1)
+j = var_3d.ravel()
+k = var_3d.flatten()
+print(f"1D remake : \n",i)
