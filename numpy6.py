@@ -25,6 +25,9 @@ print("Max : " ,np.max(var_1,axis=1))
 print(np.sqrt(var))
 print(np.sqrt(var_1))
 
+#reshape multi Dimension To 1D 2D or 3D
+
+
 print("------------------")
 
 #sin cos value
