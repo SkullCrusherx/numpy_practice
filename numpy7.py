@@ -2,6 +2,10 @@
 import numpy as np
 
 var = np.array([[1,2],[3,4]])
-print(var.shape) #show the shape
+print(var.shape)
+
+var_1 = np.array([[1,2,3],[3,4,5]])
+
+print(var_1.shape) #show the shape
 
 
