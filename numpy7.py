@@ -19,3 +19,12 @@ print(var_multi.ndim)
 print(var_multi.shape)
 
 #Reshape convert 1d to 2d 3d or multi
+var_shape = np.array([1,2,3,4,5,6])
+print(var_shape)
+print(var_shape.shape)
+#For 2d dimension making
+var_reshape = var_shape.reshape(6,2)
+print(var_reshape)
+var_reshape = var_shape.reshape(3,4)
+print(var_reshape)
+
