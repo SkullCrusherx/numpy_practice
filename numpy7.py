@@ -19,8 +19,3 @@ print(var_multi.ndim)
 print(var_multi.shape)
 
 #Reshape convert 1d to 2d 3d or multi
-
-
-
-
-
