@@ -11,7 +11,6 @@ var_2d = var.reshape(6,2)
 var_2d = var.reshape(4,3)
 print(f"shape of var_2d : \n",var_2d)
 
-
 #3d shape making
 var_3d = var.reshape(2,3,2)
 var_3d = var.reshape(1,12,1)
