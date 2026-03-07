@@ -9,9 +9,11 @@ print(f"shape of var : \n",f)
 var_2d = var.reshape(3,4)
 var_2d = var.reshape(6,2)
 var_2d = var.reshape(4,3)
+
+#2D shape print
 print(f"shape of var_2d : \n",var_2d)
 
-#3d shape making
+#3D shape making
 var_3d = var.reshape(2,3,2)
 var_3d = var.reshape(1,12,1)
 var_3d = var.reshape(3,2,2)
@@ -25,4 +27,6 @@ print(f"3D making 1# : \n",var_3d)
 i = var_3d.reshape(-1)
 j = var_3d.ravel()
 k = var_3d.flatten()
+
+#print 3D
 print(f"1D remake : \n",i)
