@@ -19,3 +19,5 @@ var_3d = var.reshape(3,2,2)
 var_3d = var.reshape(6,2,1)
 var_3d = var.reshape(1,6,2)
 print(f"3D making 1# : \n",var_3d)
+
+#1D Remake the shape like this
