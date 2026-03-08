@@ -29,4 +29,3 @@ var_2 = np.array([[1,2,3],[4,5,6]])
 #same formula here if one of them 1 or same shape var_1.shape (Axis 1) == var_2.shape (Axis 2)
 #or if dimension one is 2d another is 3d 4d or nD then no extra shape then means in numpy its goes for ok
 print(var_1+var_2)
-
