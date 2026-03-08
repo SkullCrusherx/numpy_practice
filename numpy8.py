@@ -1,3 +1,3 @@
-#Broad Casting
+#BroadCasting
 
 import numpy as np
