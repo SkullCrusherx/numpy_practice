@@ -1,6 +1,4 @@
 #numpy Shape Reshape
-import numpy as np
-
 
 import numpy as np
 
