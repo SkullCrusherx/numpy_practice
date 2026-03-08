@@ -7,7 +7,7 @@ import numpy as np
 
 var_1 = np.array([1,2,3,4,5])
 var_2 = np.array([1,2,3,4,5])
-#both same possible done dimension hcek using ndim and shape check using shape
+#both same possible done dimension check using ndim and shape check using shape
 print(var_1.ndim)
 print(var_1.shape)
 print(var_2.ndim)
