@@ -14,3 +14,9 @@ print(var_2.ndim)
 print(var_2.shape)
 #arethemetic operation done here
 
+#if dimension are different check shape
+
+var_1 = np.array([1,2,3,4,5,6])
+var_2 = np.array([[1,2,3],[4,5,6]])
+
+#
