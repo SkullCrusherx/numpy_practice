@@ -14,3 +14,5 @@ print(var_1.ndim)
 print(var_1.shape)
 print(var_2.ndim)
 print(var_2.shape)
+#arethemetic operation done here
+
