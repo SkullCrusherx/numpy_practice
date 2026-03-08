@@ -26,3 +26,5 @@ var_2 = np.array([[1,2,3],[4,5,6]])
 #check shape from right side or shape is both compare
 # check right axis1 (coloumn) one of them 1 or both same like n==n
 # then compare 2nd axis (row)
+#same formula here if one of them 1 or same shape var_1.shape (Axis 1) == var_2.shape (Axis 2)
+
