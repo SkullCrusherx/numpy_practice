@@ -30,5 +30,3 @@ var_2 = np.array([[1,2,3],[4,5,6]])
 #or if dimension one is 2d another is 3d 4d or nD then no extra shape then means in numpy its goes for ok
 print(var_1+var_2)
 
-
-
