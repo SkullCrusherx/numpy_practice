@@ -57,8 +57,8 @@ var_3d = np.array([[[1,2,3,4,5,6,7,8,9,10]],[[11,12,13,14,15,16,17,18,19,20]],[[
 
 # : use for after or before here number like [x][x1] x is index number of which block x1 belong to block's index number
 #here I can use like this [x(which block)][x1(which row)][y1:(which coloumn)]
-print(var_3d[0][1][1:])
-print(var_3d[0,1,1:])
+print(var_3d[0][0][1:])
+print(var_3d[0,0,1:])
 #Both same
 
 # : use for after or before here number like [x][x1] x is index number of which block x1 belong to block's index number
