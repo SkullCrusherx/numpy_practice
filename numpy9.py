@@ -42,7 +42,9 @@ print(var_2d[0,1:2])
 #Both same
 
 # If we need to step like 2 add [1 3 5 7] like these need to step like these [start : end : step]
-print(var_2d[0:10:2]) # here step 2"""
+print(var_2d[0][1:2:2])  # here step 2
+print(var_2d[0,1:2:2])
+#Both same
 
 
 #------------------------------------------------------------------------
