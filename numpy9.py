@@ -51,7 +51,9 @@ print(var_2d[0,1:2:2])
 #------------------------------------------------------------------------
 #3D slicing process
 
-var_3d = np.array([[1,2,3,4,5,6,7,8,9,10],[11,12,13,14,15,16,17,18,19,20]])
+var_3d = np.array([[1,2,3,4,5,6,7,8,9,10],[11,12,13,14,15,16,17,18,19,20],[21,22,23,24,25,26,27,28,29,30]])
+print(var_3d.ndim)
+print(var_3d.shape)
 
 # : use for after or before here number like [x][x1] x is index number of which block x1 belong to block's index number
 #here I can use like this [x][x1:]
