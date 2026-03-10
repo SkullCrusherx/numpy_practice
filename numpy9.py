@@ -78,3 +78,7 @@ print(var_3d[0,0,0:4])
 print(var_3d[0][0][0:7:2])
 print(var_3d[0,0,0:7:2])
 #Both same
+
+#if only [::2] that mean start to end on two steps gapping
+# in 3D [Block][Row][Coloumn]
+# alternative [Block,Row,Coloumn]
