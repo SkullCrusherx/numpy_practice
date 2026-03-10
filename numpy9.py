@@ -7,3 +7,5 @@ var = np.array([1,2,3,4,5])
 # [:Y] y index number before all number
 # [x:y] x to y all index numbers mention that means [start : end ]
 print(var[1:])
+print(var[:4])
+print(var[1:4])
