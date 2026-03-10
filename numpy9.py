@@ -15,3 +15,7 @@ print(var[1:4])
 
 # If we need to step like 2 add [1 3 5 7] like these need to step like these [start : end : step]
 print(var[0:10:2]) # here step 2
+
+#------------------------------------------------------------------------
+#------------------------------------------------------------------------
+#2D slicing process
