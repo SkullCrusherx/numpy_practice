@@ -12,3 +12,4 @@ print(var[:4])
 
 # [x:y] x to y all index numbers mention that means [start : end ]
 print(var[1:4])
+
