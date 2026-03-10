@@ -13,3 +13,4 @@ print(var[:4])
 # [x:y] x to y all index numbers mention that means [start : end ]
 print(var[1:4])
 
+# If need to step like 2 add [1 3 5 7] like these need to step like these [start : end : step]
