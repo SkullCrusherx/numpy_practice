@@ -75,6 +75,6 @@ print(var_3d[0,1,0:4])
 #Both same
 
 # If we need to step like 2 add [1 3 5 7] like these need to step like these [start : end : step]
-print(var_3d[0][1][0:4])
-print(var_3d[0,1,0:4])
+print(var_3d[0][1][0:7:2])
+print(var_3d[0,1,0:7:2])
 #Both same
