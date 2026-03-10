@@ -63,15 +63,15 @@ print(var_3d[0,1,1:])
 
 # : use for after or before here number like [x][x1] x is index number of which block x1 belong to block's index number
 #here I can use like this [x][:x1]
-print(var_3d[0][:1])
-print(var_3d[0,:1])
+print(var_3d[0][1][:4])
+print(var_3d[0,1,:4])
 #Both same
 
 # : use for after or before here number like [x][x1] x is index number of which block x1 belong to block's index number
 #here I can use like this [x][x1(start):x1(end)]
 # [x:y] x to y all index numbers mention that means [start : end ]
-print(var_3d[0][1:2])
-print(var_3d[0,1:2])
+print(var_3d[0][1][0:4])
+print(var_3d[0,1,0:4])
 #Both same
 
 # If we need to step like 2 add [1 3 5 7] like these need to step like these [start : end : step]
