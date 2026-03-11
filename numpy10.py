@@ -8,3 +8,5 @@ for x in var:
     for item in x:
         print(item)
 
+#funtion nditer() using here
+
