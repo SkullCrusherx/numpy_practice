@@ -9,4 +9,6 @@ for x in var:
         print(item)
 
 #funtion nditer() using here
+for x in np.nditer(var):
+    print(x)
 
