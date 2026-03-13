@@ -12,3 +12,4 @@ for x in var:
 for x in np.nditer(var):
     print(x)
 
+
