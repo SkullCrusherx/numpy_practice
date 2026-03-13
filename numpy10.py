@@ -13,6 +13,9 @@ for x in np.nditer(var):
     print(x)
 
 #funtion nditer() change data type using here
-for x in np.nditer(var,flags=["buffered"],op_flags=["readwrite"]):
+#using flags for extra space from memory
+# using OP_dtype for byte string "S"
+# If only need int or other than using casting to change it like these Casting=["unsafe"]
+for x in np.nditer(var,flags=["buffered"],op_dtypes=['U'],casting="unsafe"):
     print(x)
 
