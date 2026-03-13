@@ -18,5 +18,5 @@ for x in np.nditer(var):
 #using flags for extra space from memory
 # using OP_dtype for byte string "S"
 # If only need int or other than using casting to change it like these Casting=["unsafe"]
-for x in np.nditer(var_3d,flags=["buffered","delay_buffaloc"],op_dtypes=['U'],casting="unsafe"):
+for x in np.nditer(var_3d,flags=["buffered","delay_bufalloc"],op_dtypes=['U'],casting="unsafe"):
     print(x)
