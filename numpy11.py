@@ -1,9 +1,9 @@
 import numpy as np
 
-a = np.arange(6).reshape(2,3)
+a = np.array([1,2,3], dtype=np.int32)
+b = np.array([1.5,2.5,3.5], dtype=np.float64)
 
-print(a)
+it = np.nditer([a,b], flags=['common_dtype'])
 
-it = np.nditer(a, flags=['external_loop'])
-for x in it:
-    print(x)
+for x, y in it:
+    print(x, y, type(x), type(y))
