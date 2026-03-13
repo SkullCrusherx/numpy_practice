@@ -12,4 +12,7 @@ for x in var:
 for x in np.nditer(var):
     print(x)
 
+#funtion nditer() change data type using here
+for x in np.nditer(var):
+    print(x)
 
