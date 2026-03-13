@@ -20,4 +20,3 @@ for x in np.nditer(var):
 # If only need int or other than using casting to change it like these Casting=["unsafe"]
 for x in np.nditer(var_3d,flags=["buffered"],op_dtypes=['U'],casting="unsafe"):
     print(x)
-
