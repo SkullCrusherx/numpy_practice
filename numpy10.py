@@ -13,6 +13,6 @@ for x in np.nditer(var):
     print(x)
 
 #funtion nditer() change data type using here
-for x in np.nditer(var):
+for x in np.nditer(var,flags=["buffered"],op_flags=["readwrite"]):
     print(x)
 
