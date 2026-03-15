@@ -14,10 +14,12 @@ var_6 = np.array([[[7,8,9]],[[2,3,4]],[[7,6,5]]])
 join = np.concatenate((var,var_1))
 print(join)
 #using stack 1D row wise
-join_stk = np.stack((var,var_1),axis=1)
-print(join_stk)
+join_stk_col = np.stack((var,var_1),axis=0)
+join_stk_row = np.stack((var,var_1),axis=1)
+print(join_stk_col)
+print(join_stk_row)
 
-# for 2D joining array
+"""# for 2D joining array
 join_2D_row = np.concatenate((var_3,var_4),axis=1)
 join_2D_col = np.concatenate((var_3,var_4),axis=0)
 print(join_2D_row)
@@ -33,4 +35,4 @@ print(join_3D_row)
 print(join_3D_col)
 #using stack 3D
 join_stk = np.stack((var,var_1),axis=1)
-print(join_stk)
+print(join_stk)"""
