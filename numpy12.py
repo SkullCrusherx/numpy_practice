@@ -47,13 +47,13 @@ print(join_3D_col)
 #--------------------------------------------------------------------
 #------------------------Using Stack 3D------------------------------
 #--------------------------------------------------------------------
-join_stk_col = np.vstack((var,var_1)) #Vertical stack making 3D
-join_stk_row = np.hstack((var,var_1)) #Making 3D array
-join_stk_height = np.dstack((var,var_1)) #Acording to Height col depend on how many array add
+join_stk_col_3d = np.vstack((var,var_1)) #Vertical stack making 3D
+join_stk_row_3d = np.hstack((var,var_1)) #Making 3D array
+join_stk_height_3d = np.dstack((var,var_1)) #Acording to Height col depend on how many array add
 #--------------------------------------------------------------------
 #---------------------2D makes 3D------------------------------------
 #---------------------3D makes 4D------------------------------------
 #---------------------4D makes 5D------------------------------------
-print(join_stk_col)
-print(join_stk_row)
-print(join_stk_height)
+print(join_stk_col_3d)
+print(join_stk_row_3d)
+print(join_stk_height_3d)
