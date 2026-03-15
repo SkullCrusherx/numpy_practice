@@ -17,7 +17,7 @@ print(join)
 join_stk = np.stack((var,var_1),axis=1)
 print(join_stk)
 
-"""# for 2D joining array
+# for 2D joining array
 join_2D_row = np.concatenate((var_3,var_4),axis=1)
 join_2D_col = np.concatenate((var_3,var_4),axis=0)
 print(join_2D_row)
@@ -28,4 +28,3 @@ join_3D_row = np.concatenate((var_5,var_6),axis=1)
 join_3D_col = np.concatenate((var_5,var_6),axis=0)
 print(join_3D_row)
 print(join_3D_col)
-"""
