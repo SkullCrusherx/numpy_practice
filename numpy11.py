@@ -5,7 +5,7 @@ import numpy as np
 var = np.array([1,2,3,4,5,6])
 var_copy = var.copy() #original copy
 
-var[0]=19 #changes the var elemnt index number of 0
+var[0]=19 #changes the var elemnt index number of [0] = 1 to 19
 print(var_copy)
 
 #view function direct copy original function and if changes show as it is
