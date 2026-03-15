@@ -24,4 +24,3 @@ for x in np.nditer(var_3d,flags=["buffered"],op_dtypes=['U'],casting="unsafe"):
 # If we need index number also then we need to use this function and also like these
 for index,x in np.ndenumerate(var_3d): #here index contains the index number of that
     print(index,x)
-
