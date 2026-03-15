@@ -8,8 +8,5 @@ var_copy = var.copy() #original copy
 var[0]=19
 print(var_copy)
 
-
-
-
 var_view = var.view()
 print(var_view)
