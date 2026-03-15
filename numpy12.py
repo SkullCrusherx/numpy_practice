@@ -38,7 +38,7 @@ print(join_stk_col)
 print(join_stk_row)
 print(join_stk_height)
 #--------------------------------------------------------------------
-# for 3D joining array
+# For 3D joining array
 #--------------------------------------------------------------------
 join_3D_row = np.concatenate((var_5,var_6),axis=1)
 join_3D_col = np.concatenate((var_5,var_6),axis=0)
