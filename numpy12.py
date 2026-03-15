@@ -54,7 +54,6 @@ join_stk_height = np.dstack((var,var_1)) #Acording to Height col depend on how m
 #---------------------2D makes 3D------------------------------------
 #---------------------3D makes 4D------------------------------------
 #---------------------4D makes 5D------------------------------------
-#--------------------------------------------------------------------
 print(join_stk_col)
 print(join_stk_row)
 print(join_stk_height)
