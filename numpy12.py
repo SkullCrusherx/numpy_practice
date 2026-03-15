@@ -27,7 +27,9 @@ join_2D_col = np.concatenate((var_3,var_4),axis=0)
 print(join_2D_row)
 print(join_2D_col)
 
-#using stack 2D
+#--------------------------------------------------------------------
+# Using Stack 2D
+#--------------------------------------------------------------------
 join_stk_col = np.vstack((var,var_1)) #Vertical stack making 1D + 1D
 join_stk_row = np.hstack((var,var_1)) #Making 1D array
 join_stk_height = np.dstack((var,var_1)) #Acording to Height col depend on how many array add
@@ -35,12 +37,20 @@ join_stk_height = np.dstack((var,var_1)) #Acording to Height col depend on how m
 print(join_stk_col)
 print(join_stk_row)
 print(join_stk_height)
-
+#--------------------------------------------------------------------
 # for 3D joining array
+#--------------------------------------------------------------------
 join_3D_row = np.concatenate((var_5,var_6),axis=1)
 join_3D_col = np.concatenate((var_5,var_6),axis=0)
 print(join_3D_row)
 print(join_3D_col)
-#using stack 3D
-join_stk = np.stack((var,var_1),axis=1)
-print(join_stk)
+#--------------------------------------------------------------------
+# Using Stack 3D
+#--------------------------------------------------------------------
+join_stk_col = np.vstack((var,var_1)) #Vertical stack making 1D + 1D
+join_stk_row = np.hstack((var,var_1)) #Making 1D array
+join_stk_height = np.dstack((var,var_1)) #Acording to Height col depend on how many array add
+
+print(join_stk_col)
+print(join_stk_row)
+print(join_stk_height)
