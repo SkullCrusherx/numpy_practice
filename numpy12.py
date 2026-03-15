@@ -21,7 +21,7 @@ print(join_2D_row)
 print(join_2D_col)
 
 # for 3D joining array
-join_2D_row = np.concatenate((var_3,var_4),axis=1)
-join_2D_col = np.concatenate((var_3,var_4),axis=0)
+join_3D_row = np.concatenate((var_3,var_4),axis=1)
+join_3D_col = np.concatenate((var_3,var_4),axis=0)
 print(join_2D_row)
 print(join_2D_col)
