@@ -9,8 +9,9 @@ var_4 = np.array([[7,8,9],[7,6,5]])
 
 var_5 = np.array([[[1,2,3]],[[4,5,6]],[[7,8,9]]])
 var_6 = np.array([[[7,8,9]],[[2,3,4]],[[7,6,5]]])
-
+#--------------------------------------------------------------------
 # for 1D joining array
+#--------------------------------------------------------------------
 join = np.concatenate((var,var_1))
 print(join)
 #using stack 1D row wise
@@ -18,7 +19,7 @@ join_stk_col = np.stack((var,var_1),axis=0)
 join_stk_row = np.stack((var,var_1),axis=1)
 print(join_stk_col)
 print(join_stk_row)
-
+#--------------------------------------------------------------------
 # for 2D joining array
 join_2D_row = np.concatenate((var_3,var_4),axis=1)
 join_2D_col = np.concatenate((var_3,var_4),axis=0)
@@ -28,7 +29,8 @@ print(join_2D_col)
 #using stack 2D
 join_stk_col = np.vstack((var,var_1)) #Vertical stack making 1D + 1D
 join_stk_row = np.hstack((var,var_1)) #Making 1D array
-join_stk_height = np.dstack((var,var_1)) #Acording to Height
+join_stk_height = np.dstack((var,var_1)) #Acording to Height col depend on how many array add
+
 print(join_stk_col)
 print(join_stk_row)
 print(join_stk_height)
