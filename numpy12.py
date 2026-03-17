@@ -17,6 +17,7 @@ print(join)
 #using stack 1D row wise
 join_stk_col = np.stack((var,var_1),axis=0)
 join_stk_row = np.stack((var,var_1),axis=1)
+col = np.column_stack() # col stack similar like horizontal
 print(join_stk_col)
 print(join_stk_row)
 #--------------------------------------------------------------------
@@ -31,6 +32,7 @@ print(join_2D_col)
 #----------------------Using Stack 2D-------------------------------
 #--------------------------------------------------------------------
 join_stk_col = np.vstack((var,var_1)) #Vertical stack making 1D + 1D
+col = np.column_stack() #Col stack similar like horizontal
 join_stk_row = np.hstack((var,var_1)) #Making 1D array
 join_stk_height = np.dstack((var,var_1)) #Acording to Height col depend on how many array add
 
