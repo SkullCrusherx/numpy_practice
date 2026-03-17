@@ -4,7 +4,7 @@ import numpy as np
 var = np.array([1,2,3,4])
 var_1 = np.array([6,7,8,9])
 
-var_3 = np.array([[1,2,3],[4,5,6]])
+"""var_3 = np.array([[1,2,3],[4,5,6]])
 var_4 = np.array([[7,8,9],[7,6,5]])
 
 var_5 = np.array([[[1,2,3]],[[4,5,6]],[[7,8,9]]])
@@ -57,5 +57,7 @@ join_stk_height_3d = np.dstack((var,var_1)) #Acording to Height col depend on ho
 print(join_stk_col_3d)
 print(join_stk_row_3d)
 print(join_stk_height_3d)
-
+"""
 #=============================Split===============================
+split = np.array_split(var,3) #3 number how much splice actually i need
+print(split)
