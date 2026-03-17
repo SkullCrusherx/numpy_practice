@@ -1,7 +1,7 @@
 # Search ,Sort , Search Sorted , Filter
 import numpy as np
 
-#for loop
+#for checking condition or number index number
 var = np.array([1,2,3,4,5,6])
 finding_from_arr = np.where(var%2 == 1)
 print(finding_from_arr)
