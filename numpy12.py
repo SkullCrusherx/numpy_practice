@@ -57,7 +57,11 @@ join_stk_height_3d = np.dstack((var,var_1)) #Acording to Height col depend on ho
 print(join_stk_col_3d)
 print(join_stk_row_3d)
 print(join_stk_height_3d)
-"""
+
 #=============================Split===============================
-split = np.array_split(var,3) #3 number how much splice actually i need
-print(split)
+split_1d = np.array_split(var,3) #3 number how much splice actually user need
+print(split_1d)"""
+
+split_2d = np.array_split(var_3,2) #2 number how much splice actually user need
+#if we use more indices of slicing it will replect shape data type and more info
+print(split_2d)
