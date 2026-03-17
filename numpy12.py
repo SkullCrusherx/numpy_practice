@@ -12,7 +12,7 @@ var_6 = np.array([[[7,8,9]],[[2,3,4]],[[7,6,5]]])
 #--------------------------------------------------------------------
 #------------------For 1D joining array-----------------------------
 #--------------------------------------------------------------------
-"""join = np.concatenate((var,var_1))
+join = np.concatenate((var,var_1))
 print(join)
 #using stack 1D row wise
 join_stk_col = np.stack((var,var_1),axis=0)
@@ -60,7 +60,7 @@ print(join_stk_height_3d)
 
 #=============================Split===============================
 split_1d = np.array_split(var,3) #3 number how much splice actually user need
-print(split_1d)"""
+print(split_1d)
 
 split_2d = np.array_split(var_3,2) #2 number how much splice actually user need
 #if we use more indices of slicing it will replect shape data type and more info
