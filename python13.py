@@ -2,6 +2,7 @@
 import numpy as np
 var = np.array([1,2,3,4,5,6,5,8,6,9])
 alphabet = np.array(['A','B','C','H','G','J','T'])
+alphabet_2d = np.array([['A','B','C'],['H','G','J']])
 
 #for checking condition or number index number
 finding_from_arr = np.where(var%2 == 1)
