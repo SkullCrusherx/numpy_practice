@@ -18,10 +18,10 @@ sorting = np.sort(var)
 #alpabet sorting
 alphabet_sorting = np.sort(alphabet)
 
-#reverse sorting number
+#Reverse sorting number
 Reverse_sorting = np.sort(var)[::-1] #For 1D
 
-#reverse alphabet sorting
+#Reverse alphabet sorting
 Reverse_alphabet_sorting = np.sort(alphabet)[::-1] #For 1D
 
 print("search index number of array according to condition : ",finding_from_arr)
