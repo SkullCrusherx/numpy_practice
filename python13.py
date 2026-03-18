@@ -24,7 +24,6 @@ Reverse_sorting = np.sort(var)[::-1]
 #reverse alphabet sorting
 Reverse_alphabet_sorting = np.sort(alphabet)[::-1]
 
-
 print("search index number of array according to condition : ",finding_from_arr)
 print("index check from right to left : ",insert_element_sort_r)
 print("index check from left to right : ",insert_element_sort)
