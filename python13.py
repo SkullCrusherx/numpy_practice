@@ -14,10 +14,13 @@ insert_element_sort_r = np.searchsorted(var,100,side = 'right') #from right to l
 
 #sorting alphabet and also number
 sorting = np.sort(var)
+
 #alpabet sorting
 alphabet_sorting = np.sort(alphabet)
+
 #reverse sorting number
 Reverse_sorting = np.sort(var)[::-1]
+
 #reverse alphabet sorting
 Reverse_alphabet_sorting = np.sort(alphabet)[::-1]
 
