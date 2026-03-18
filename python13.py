@@ -23,11 +23,11 @@ alphabet_sorting = np.sort(alphabet)
 
 #Reverse sorting number
 Reverse_sorting = np.sort(var)[::-1] #For 1D
-Reverse_sorting_2d = np.sort(var_2d)[::-1]
+Reverse_sorting_2d = np.sort(var_2d)[:,::-1] #2D 1st row 2nd column
 
 #Reverse alphabet sorting
 Reverse_alphabet_sorting = np.sort(alphabet)[::-1] #For 1D
-Reverse_alphabet_sorting_2d = np.sort(alphabet_2d)[::-1]
+Reverse_alphabet_sorting_2d = np.sort(alphabet_2d)[:,::-1] #2D 1st row 2nd column
 
 print("*"*100)
 print("search index number of array according to condition : ",finding_from_arr)
@@ -38,5 +38,5 @@ print("sorting 1D: ",sorting)
 print("alphabet sorting 1D: ",alphabet_sorting)
 print("reverse sorting 1D: ",Reverse_sorting)
 print("reverse alphabet sorting 1D: ", Reverse_alphabet_sorting)
-print("reverse number sorting 2D: ", Reverse_sorting_2d)
-print("reverse alphabet sorting 2D: ", Reverse_alphabet_sorting_2d)
+print(f"reverse number sorting 2D: \n", Reverse_sorting_2d)
+print(f"reverse alphabet sorting 2D: \n", Reverse_alphabet_sorting_2d)
