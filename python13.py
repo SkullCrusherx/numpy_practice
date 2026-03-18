@@ -12,8 +12,10 @@ insert_element_sort = np.searchsorted(var,100)
 insert_element_sort_r = np.searchsorted(var,100,side = 'right') #from right to left
 
 #sorting alphabet and also number
+sorting = np.sort(var)
 
 
 print(finding_from_arr)
 print(insert_element_sort_r)
 print(insert_element_sort)
+print(sorting)
