@@ -6,7 +6,7 @@ var_2d = np.array([[1,2,3],[4,5,6],[8,6,9]])
 alphabet = np.array(['A','B','C','H','G','J','T'])
 alphabet_2d = np.array([['A','B','C'],['H','G','J']])
 
-#for checking condition or number index number
+#For checking condition or number index number
 finding_from_arr = np.where(var%2 == 1)
 
 #Checking the number index and condition where given input send and
