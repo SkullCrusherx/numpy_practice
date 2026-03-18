@@ -30,8 +30,6 @@ Reverse_sorting_2d = np.sort(var_2d)[:,::-1] #2D 1st row 2nd column
 Reverse_alphabet_sorting = np.sort(alphabet)[::-1] #For 1D
 Reverse_alphabet_sorting_2d = np.sort(alphabet_2d)[:,::-1] #2D 1st row 2nd column
 
-
-
 print("*"*100)
 print("search index number of array according to condition : ",finding_from_arr)
 print("index check from right to left : ",insert_element_sort_r)
