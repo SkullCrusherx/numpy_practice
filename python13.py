@@ -2,6 +2,7 @@
 import numpy as np
 var = np.array([1,2,3,4,5,6,5,8,6,9])
 var_2d = np.array([[1,2,3],[4,5,6],[8,6,9]])
+check = [True,True,True,False,False,False,True,True,False,True]
 
 alphabet = np.array(['A','B','C','H','G','J','T'])
 alphabet_2d = np.array([['A','B','C'],['H','G','J']])
@@ -28,6 +29,8 @@ Reverse_sorting_2d = np.sort(var_2d)[:,::-1] #2D 1st row 2nd column
 #Reverse alphabet sorting
 Reverse_alphabet_sorting = np.sort(alphabet)[::-1] #For 1D
 Reverse_alphabet_sorting_2d = np.sort(alphabet_2d)[:,::-1] #2D 1st row 2nd column
+
+
 
 print("*"*100)
 print("search index number of array according to condition : ",finding_from_arr)
