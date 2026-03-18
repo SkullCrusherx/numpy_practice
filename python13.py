@@ -5,7 +5,8 @@ import numpy as np
 var = np.array([1,2,3,4,5,6])
 finding_from_arr = np.where(var%2 == 1)
 
-#Checking the number index and condition where given input send and checking side left to right & retun the index number
+#Checking the number index and condition where given input send and
+# checking side left to right & retun the index number
 #from left to right
 insert_element_sort = np.searchsorted(var,100)
 insert_element_sort_r = np.searchsorted(var,100,side = 'right') #from right to left
