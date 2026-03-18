@@ -15,10 +15,10 @@ finding_from_arr = np.where(var%2 == 1)
 insert_element_sort = np.searchsorted(var,100)
 insert_element_sort_r = np.searchsorted(var,100,side = 'right') #from right to left
 
-#sorting alphabet and also number
+#Sorting alphabet and also number
 sorting = np.sort(var)
 
-#alpabet sorting
+#Alpabet sorting
 alphabet_sorting = np.sort(alphabet)
 
 #Reverse sorting number
