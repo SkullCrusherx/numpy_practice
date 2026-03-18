@@ -15,7 +15,7 @@ insert_element_sort_r = np.searchsorted(var,100,side = 'right') #from right to l
 sorting = np.sort(var)
 
 
-print(finding_from_arr)
-print(insert_element_sort_r)
-print(insert_element_sort)
-print(sorting)
+print("search index number of array according to condition : ",finding_from_arr)
+print("index check from right to left : ",insert_element_sort_r)
+print("index check from left to right : ",insert_element_sort)
+print("sorting : ",sorting)
