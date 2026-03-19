@@ -22,5 +22,5 @@ rsize = np.resize(var,(5,4))
 print(rsize)
 #--------------------------------------------------------
 #----------------""Flatten""-----------------------------
-T = var.flatten()
+T = var_2d.flatten()
 print("Output :", T)
