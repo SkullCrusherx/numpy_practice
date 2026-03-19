@@ -12,11 +12,13 @@ np.random.shuffle(var_2d) #no need to store it return Value
 
 #--------------------------------------------------------
 #----------------Unique----------------------------------
+
 unqe = np.unique(var)
 unqe_2d = np.unique(var_2d)
 
 print(unqe)
 print(unqe_2d)
+
 #--------------------------------------------------------
 #----------------Resize----------------------------------
 var_x = np.array([1,2,3])
