@@ -23,6 +23,7 @@ print(rsize)
 #--------------------------------------------------------
 #----------------""Flatten""-----------------------------
 one_D_make = var_2d.flatten()
+one_D_make = var_2d.flatten(order='F') #here order wise F for row wise C for col wise
 print("Output :", one_D_make)
 
 #--------------------------------------------------------
