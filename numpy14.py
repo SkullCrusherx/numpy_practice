@@ -9,5 +9,17 @@ var_2d = np.array([[1,2,3],[7,8,9]])
 np.random.shuffle(var) #no need to store it return Value
 np.random.shuffle(var_2d)
 
+#--------------------------------------------------------
+#----------------Unique----------------------------------
+
+unqe = np.unique(var)
+unqe_2d = np.unique(var_2d)
+
+print(unqe)
+print(unqe_2d)
+
+#--------------------------------------------------------
+#----------------Unique----------------------------------
+
 
 
