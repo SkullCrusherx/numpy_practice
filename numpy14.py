@@ -15,15 +15,13 @@ np.random.shuffle(var_2d) #no need to store it return Value
 
 unqe = np.unique(var)
 unqe_2d = np.unique(var_2d)
-
 print(unqe)
 print(unqe_2d)
-
 #--------------------------------------------------------
 #----------------Resize----------------------------------
-var_x = np.array([1,2,3])
-rsize = np.resize(var_x,(5,4))
+rsize = np.resize(var,(5,4))
 print(rsize)
-
+#--------------------------------------------------------
+#----------------Resize----------------------------------
 
 
