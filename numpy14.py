@@ -22,5 +22,5 @@ rsize = np.resize(var,(5,4))
 print(rsize)
 #--------------------------------------------------------
 #----------------""Flatten""-----------------------------
-T = var_2d.flatten()
-print("Output :", T)
+one_D_make = var_2d.flatten()
+print("Output :", one_D_make)
