@@ -1,8 +1,4 @@
-# Shuffle()
-# Unique()
-# Resize()
-# Flatten()
-# Ravel()
+# Shuffle() # Unique() # Resize() # Flatten() # Ravel()
 import numpy as np
 
 var = np.array([1,2,3,4,5,6])
