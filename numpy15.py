@@ -28,5 +28,6 @@ print("for 3D output :",var_3d_1)#For axis 1 coloumn wise
 #==================np.append(array,element or list)====================================
 #======================================================================================
 
-appnd = np.append(var,4)
+appnd = np.append(var,4) # number
+appnd = np.append(var,[3,4,5]) # list pass
 print("append : ",appnd)
