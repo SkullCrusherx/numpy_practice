@@ -15,12 +15,12 @@ var_2d_1 = np.insert(var_2D,0,[7,8,9],axis=1)
 
 var_3d_0 = np.insert(var_3D,0,[7,8,9],axis=0)
 var_3d_1 = np.insert(var_3D,0,[7,8,9],axis=1)
-var_3d_2 = np.insert(var_3D,0,[7,8,9],axis=2)
+#var_3d_2 = np.insert(var_3D,0,[7,8,9],axis=2)
 
 print("for 2D output :",var_2d_0)#For axis 0 row wise
 print("for 2D output :",var_2d_1)#For axis 1 coloumn wise
 
 print("for 3D output :",var_3d_0)#For axis 0 row wise
 print("for 3D output :",var_3d_1)#For axis 1 coloumn wise
-print("for 3D output :",var_3d_2)##For axis 2 edge wise
+#print("for 3D output :",var_3d_2)##For axis 2 edge wise
 
