@@ -40,5 +40,5 @@ print(f"append : \n",var_2D)
 #==================np.delete(array,element or list)====================================
 #======================================================================================
 v_del =np.delete(var,4)
-print(v_del)
+print("after delet: ",v_del)
 
