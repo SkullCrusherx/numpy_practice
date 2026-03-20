@@ -40,7 +40,7 @@ print(f"append : \n",var_2D)
 #==================np.delete(array,element or list)====================================
 #======================================================================================
 v_del =np.delete(var,4) #For 1D
-v_del_2d =np.delete(var_2D,4,axis=0)
+v_del_2d =np.delete(var_2D,2,axis=0)
 
 print("after delet: ",v_del)
 print("after delet: \n",v_del_2d)
