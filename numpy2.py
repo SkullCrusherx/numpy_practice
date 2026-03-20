@@ -16,7 +16,7 @@ print(arm)
 m = np.arange(1,10,2)
 print(m)
 
-# Diagonal fill with ones like
+# Diagonal fill with ones like or identity matirx
 arr_Dig = np.eye(7)
 print(arr_Dig)
 

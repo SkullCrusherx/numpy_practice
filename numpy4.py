@@ -25,6 +25,7 @@ print(var_ch.dtype)
 
 #process to chnage datatype float int or others
 new_dtype = np.array([1,2,3,4])
+
 f = np.float32(new_dtype)
 print(f.dtype)
 print(f)
