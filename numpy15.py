@@ -32,5 +32,5 @@ appnd = np.append(var,4) # number
 appnd = np.append(var,[3,4,5]) # list pass
 print("append : ",appnd)
 
-var_2D = np.append(var_2D,5,axis=1)
+var_2D = np.append(var_2D,[4,5,6],axis=1)
 print("append : ",var_2D)
