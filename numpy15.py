@@ -13,5 +13,5 @@ appnd = np.append(var,[10,11,12]) #for 1d insert data or append at the last side
 var_2d = np.insert(var_2D,0,[7,8,9],axis=0)
 print(var_2d)
 
-var_2d = np.insert(var_2D,0,[7,8,9],axis=0)
-print(var_2d)
+var_3d = np.insert(var_3D,0,[7,8,9],axis=1)
+print(var_3d)
