@@ -10,9 +10,17 @@ var_3D = np.array([[[1,2,3]],[[5,4,7]],[[4,5,6]]])
 #======================================================================================
 insrt = np.insert(var,5,[7,8,9]) #for 1D usage insert by index number
 
-var_2d = np.insert(var_2D,0,[7,8,9],axis=0)
-var_3d = np.insert(var_3D,0,[7,8,9],axis=1)
+var_2d_0 = np.insert(var_2D,0,[7,8,9],axis=0)
+var_2d_1 = np.insert(var_2D,0,[7,8,9],axis=1)
 
-print("for 2D output :",var_2d)
-print("for 3D output :",var_3d)
+var_3d_0 = np.insert(var_3D,0,[7,8,9],axis=0)
+var_3d_1 = np.insert(var_3D,0,[7,8,9],axis=1)
+var_3d_2 = np.insert(var_3D,0,[7,8,9],axis=2)
+
+print("for 2D output :",var_2d_0)#For axis 0 row wise
+print("for 2D output :",var_2d_1)#For axis 1 coloumn wise
+
+print("for 3D output :",var_3d_0)#For axis 0 row wise
+print("for 3D output :",var_3d_1)#For axis 1 coloumn wise
+print("for 3D output :",var_3d_2)##For axis 2 edge wise
 
