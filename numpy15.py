@@ -31,3 +31,6 @@ print("for 3D output :",var_3d_1)#For axis 1 coloumn wise
 appnd = np.append(var,4) # number
 appnd = np.append(var,[3,4,5]) # list pass
 print("append : ",appnd)
+
+var_2D = np.append(var_2D,[7,8,9])
+print("append : ",var_2D)
