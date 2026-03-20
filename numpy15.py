@@ -1,4 +1,4 @@
-# insert Data and Delete Data
+# insert element and Delete element from Array
 
 import numpy as np
 
