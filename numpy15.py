@@ -42,6 +42,6 @@ print(f"append : \n",var_2D)
 v_del =np.delete(var,4) #For 1D
 v_del_2d =np.delete(var_2D,2,axis=0) #for 2D full 2nd row delete
 
-print("after delet: ",v_del)
-print("after delet: \n",v_del_2d)
+print("after delete: ",v_del)
+print("after delete: \n",v_del_2d)
 #======================================================================================
