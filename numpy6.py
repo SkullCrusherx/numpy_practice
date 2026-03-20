@@ -25,7 +25,7 @@ print("Max : " ,np.max(var_1,axis=1))
 print(np.sqrt(var))
 print(np.sqrt(var_1))
 
-print("------------------")
+print("-"*100)
 
 #sin cos value
 var_sin = np.array([1,2,3])
