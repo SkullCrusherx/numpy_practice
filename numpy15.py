@@ -9,5 +9,5 @@ insrt = np.insert(var,5,[7,8,9]) #for 1D usage insert by index number
 #np.insert(array, element or list)
 appnd = np.append(var,[10,11,12]) #for 1d insert data or append at the last side of array
 
-var_2d = np.insert(var_2d,4,[7,8,9])
+var_2d = np.insert(var_2d,4,[7,8,9],axis=0)
 print(var_2d)
