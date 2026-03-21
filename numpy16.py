@@ -3,5 +3,5 @@
 
 import numpy as np
 
-v = np.matrix[1,2,3]
+v = np.matrix([1,2,3])
 print(v)
