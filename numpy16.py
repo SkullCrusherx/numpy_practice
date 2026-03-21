@@ -3,5 +3,5 @@
 
 import numpy as np
 
-v = np.matrix([[1,2,3],[3,4,5]])
-print(v)
+var = np.matrix([[1,2,3],[3,4,5]])
+var_2d = np.matrix([[4,5,6],[7,8,9]])
