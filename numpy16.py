@@ -1,2 +1,3 @@
 #Last series of WS cube Tutorial
-#MATRIX
+# MATRIX and matrix operations
+
