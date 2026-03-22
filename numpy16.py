@@ -23,5 +23,5 @@ print(var.swapaxes(0,0))
 print("=================================")
 print(var.swapaxes(0,1))"""
 
-F = np.linalg.solve(var,var_22)
+F = np.linalg.solve(var_22,var_1D)
 print(F)
