@@ -2,7 +2,6 @@
 #MATRIX and matrix operations
 import numpy as np
 
-
 var = np.matrix([[1,2,3],[3,4,5]])
 var_2d = np.matrix([[4,5,6],[7,8,9]])
 
@@ -13,4 +12,3 @@ print(var.transpose())
 print("=================================")
 print(var.swapaxes(1,0))
 print("=================================")
-
