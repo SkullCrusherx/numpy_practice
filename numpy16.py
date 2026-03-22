@@ -23,4 +23,4 @@ print(np.linalg.matrix_power(var,2))
 print("-"*10)
 print(np.linalg.matrix_power(var,0)) #for identity matrix
 print("-"*10)
-print(np.linalg.matrix_power(var,-1)) # for 
+print(np.linalg.matrix_power(var,-1)) # for inverse power
