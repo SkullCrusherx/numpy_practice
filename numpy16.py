@@ -2,8 +2,8 @@
 #MATRIX and matrix operations
 import numpy as np
 
-var = np.matrix([[1,2],[4,5]])
-var2 = np.matrix([[4,5],[8,9]])
+var = np.matrix([[1,2],[3,4]])
+var2 = np.matrix([[5,6],[7,8]])
 
 """add = np.add(var,var2)
 sub = np.subtract(var,var2)
