@@ -18,3 +18,5 @@ print("Devide : \n", dev)
 print("Print : \n", dot)"""
 
 print(np.dot(var,var))
+print("-"*10)
+print(np.linalg.matrix_power(var,2))
