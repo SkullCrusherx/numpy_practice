@@ -12,6 +12,6 @@ print(var)
 print("===========")
 print(var.transpose())
 print("===========")
-print(var_22.transpose())
-print("===========")
 print(var_22.T)
+
+print(var.swapaxes(0,1))
