@@ -20,5 +20,7 @@ print("Print : \n", dot)"""
 print(np.dot(var,var))
 print("-"*10)
 print(np.linalg.matrix_power(var,2))
-
-print(np.linalg.matrix_power(var,0))
+print("-"*10)
+print(np.linalg.matrix_power(var,0)) #for identity matrix
+print("-"*10)
+print(np.linalg.matrix_power(var))
