@@ -17,3 +17,4 @@ print("Multiply : \n", mul)
 print("Devide : \n", dev)
 print("Print : \n", dot)"""
 
+print(np.dot(var,var))
