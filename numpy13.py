@@ -8,7 +8,7 @@ alphabet = np.array(['A','B','C','H','G','J','T'])
 alphabet_2d = np.array([['A','B','C'],['H','G','J']])
 
 #For checking condition or number index number
-finding_from_arr = np.where(var%2 == 1)
+finding_from_arr = np.where(var%2 == 1) #np.where(Condition,if True condition,if condition False)
 
 #Checking the number index and condition where given input send and
 #Checking side left to right & return the index number
